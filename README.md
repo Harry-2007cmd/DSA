@@ -4,7 +4,7 @@ A curated collection of Data Structures & Algorithms problems solved in **Java**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-46-blueviolet" alt="Problems Solved: 46" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-59-blueviolet" alt="Problems Solved: 59" />
   <img src="https://img.shields.io/badge/Difficulty-Easy%20%7C%20Medium%20%7C%20Hard-informational" alt="Difficulty Mix" />
   <img src="https://img.shields.io/badge/Platform-LeetCode-yellow" alt="Platform: LeetCode" />
 </p>
@@ -15,10 +15,10 @@ A curated collection of Data Structures & Algorithms problems solved in **Java**
 
 | Difficulty | Count |
 |---|---|
-| 🟢 Easy | 32 |
-| 🟠 Medium | 13 |
+| 🟢 Easy | 44 |
+| 🟠 Medium | 14 |
 | 🔴 Hard | 1 |
-| **Total** | **46** |
+| **Total** | **59** |
 
 ---
 
@@ -59,6 +59,13 @@ Example:
 | 4033 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor) | 🟠 Medium | [`longest-subsequence-with-non-zero-bitwise-xor.java`](./4033-longest-subsequence-with-non-zero-bitwise-xor/longest-subsequence-with-non-zero-bitwise-xor.java) |
 | 4316 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end) | 🟢 Easy | [`minimum-swaps-to-move-zeros-to-end.java`](./4316-minimum-swaps-to-move-zeros-to-end/minimum-swaps-to-move-zeros-to-end.java) |
 
+### Binary Search
+
+| # | Problem | Difficulty | Solution |
+|---|---|---|---|
+| 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟠 Medium | [`search-in-rotated-sorted-array-ii.java`](./81-search-in-rotated-sorted-array-ii/search-in-rotated-sorted-array-ii.java) |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | 🟢 Easy | [`first-bad-version.java`](./278-first-bad-version/first-bad-version.java) |
+
 ### Strings
 
 | # | Problem | Difficulty | Solution |
@@ -72,14 +79,22 @@ Example:
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | [`valid-anagram.java`](./242-valid-anagram/valid-anagram.java) |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | [`ransom-note.java`](./383-ransom-note/ransom-note.java) |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | [`first-unique-character-in-a-string.java`](./387-first-unique-character-in-a-string/first-unique-character-in-a-string.java) |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference) | 🟢 Easy | [`find-the-difference.java`](./389-find-the-difference/find-the-difference.java) |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟠 Medium | [`string-compression.java`](./443-string-compression/string-compression.java) |
+| 1156 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram) | 🟢 Easy | [`occurrences-after-bigram.java`](./1156-occurrences-after-bigram/occurrences-after-bigram.java) |
 | 1524 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array) | 🟢 Easy | [`string-matching-in-an-array.java`](./1524-string-matching-in-an-array/string-matching-in-an-array.java) |
 | 1632 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string) | 🟠 Medium | [`number-of-good-ways-to-split-a-string.java`](./1632-number-of-good-ways-to-split-a-string/number-of-good-ways-to-split-a-string.java) |
+| 1823 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike) | 🟢 Easy | [`determine-if-string-halves-are-alike.java`](./1823-determine-if-string-halves-are-alike/determine-if-string-halves-are-alike.java) |
 | 1954 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters) | 🟢 Easy | [`replace-all-digits-with-characters.java`](./1954-replace-all-digits-with-characters/replace-all-digits-with-characters.java) |
 | 1960 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram) | 🟢 Easy | [`check-if-the-sentence-is-pangram.java`](./1960-check-if-the-sentence-is-pangram/check-if-the-sentence-is-pangram.java) |
 | 1967 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order) | 🟠 Medium | [`longest-substring-of-all-vowels-in-order.java`](./1967-longest-substring-of-all-vowels-in-order/longest-substring-of-all-vowels-in-order.java) |
 | 1970 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | [`sorting-the-sentence.java`](./1970-sorting-the-sentence/sorting-the-sentence.java) |
+| 2032 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string) | 🟢 Easy | [`largest-odd-number-in-string.java`](./2032-largest-odd-number-in-string/largest-odd-number-in-string.java) |
+| 2168 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | [`check-if-numbers-are-ascending-in-a-sentence.java`](./2168-check-if-numbers-are-ascending-in-a-sentence/check-if-numbers-are-ascending-in-a-sentence.java) |
+| 2847 | [Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs) | 🟢 Easy | [`find-maximum-number-of-string-pairs.java`](./2847-find-maximum-number-of-string-pairs/find-maximum-number-of-string-pairs.java) |
 | 3349 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences) | 🟢 Easy | [`maximum-length-substring-with-two-occurrences.java`](./3349-maximum-length-substring-with-two-occurrences/maximum-length-substring-with-two-occurrences.java) |
+| 3379 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | [`score-of-a-string.java`](./3379-score-of-a-string/score-of-a-string.java) |
+| 3396 | [Valid Word](https://leetcode.com/problems/valid-word) | 🟢 Easy | [`valid-word.java`](./3396-valid-word/valid-word.java) |
 | 3468 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string) | 🟢 Easy | [`find-the-encrypted-string.java`](./3468-find-the-encrypted-string/find-the-encrypted-string.java) |
 | 4052 | [Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings) | 🟢 Easy | [`equal-score-substrings.java`](./4052-equal-score-substrings/equal-score-substrings.java) |
 | 4178 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score) | 🟢 Easy | [`vowel-consonant-score.java`](./4178-vowel-consonant-score/vowel-consonant-score.java) |
@@ -94,6 +109,7 @@ Example:
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | 🟠 Medium | [`rotate-image.java`](./48-rotate-image/rotate-image.java) |
 | 898 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | 🟢 Easy | [`transpose-matrix.java`](./898-transpose-matrix/transpose-matrix.java) |
 | 1677 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | [`matrix-diagonal-sum.java`](./1677-matrix-diagonal-sum/matrix-diagonal-sum.java) |
+| 3533 | [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix) | 🟢 Easy | [`snake-in-matrix.java`](./3533-snake-in-matrix/snake-in-matrix.java) |
 
 ### Math
 
@@ -104,6 +120,8 @@ Example:
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | [`ugly-number.java`](./263-ugly-number/ugly-number.java) |
 | 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | 🟠 Medium | [`bulb-switcher.java`](./319-bulb-switcher/bulb-switcher.java) |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 Easy | [`power-of-three.java`](./326-power-of-three/power-of-three.java) |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 Easy | [`fizz-buzz.java`](./412-fizz-buzz/fizz-buzz.java) |
+| 3636 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string) | 🟢 Easy | [`check-balanced-string.java`](./3636-check-balanced-string/check-balanced-string.java) |
 
 ### Two Pointers & Sliding Window
 
