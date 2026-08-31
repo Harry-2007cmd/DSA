@@ -7,9 +7,9 @@ class Solution {
             for(int j = 0;j<matrix.length;j++){
                 if(matrix[i][j]==1) degree++;
             }
-            answer[k++] = degree;
+            answer[i] = degree;
         }
         return answer;
-        
+
     }
 }
