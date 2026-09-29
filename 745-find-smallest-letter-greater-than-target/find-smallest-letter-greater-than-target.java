@@ -1,6 +1,6 @@
 class Solution {
     public char nextGreatestLetter(char[] letters, char target) {
-        //   if(target>=letters[letters.length-1]) return letters[0];
+          if(target>=letters[letters.length-1]) return letters[0];
         int start = 0;
         int end = letters.length -1;
         while(start<=end){
@@ -12,6 +12,6 @@ class Solution {
                 end= mid-1;
             }
         }
-        return letters[start%letters.length];
+        return letters[start];
     }
 }
