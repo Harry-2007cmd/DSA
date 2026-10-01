@@ -24,12 +24,10 @@ class Solution {
             }
 
             if (subarrays <= k) {
-                // We can split into k or fewer parts,
-                // so try a smaller maximum sum.
+  
                 end = mid;
             } else {
-                // We need more than k parts,
-                // so mid is too small.
+  
                 start = mid + 1;
             }
         }
