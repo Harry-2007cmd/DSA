@@ -8,10 +8,10 @@ class Solution {
                   return mid;
             }
             if(nums[mid]<=target){
-                s+=1;
+                s=mid+1;
             }
             else{
-                e-=1;
+                e=mid-1;
             }
 
         }
