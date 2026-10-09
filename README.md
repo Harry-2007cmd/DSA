@@ -50,6 +50,7 @@ Example:
 |---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 Easy | [`two-sum.java`](./1-two-sum/two-sum.java) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | 🟢 Easy | [`remove-duplicates-from-sorted-array.java`](./26-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java) |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | 🟢 Easy | [`search-insert-position.java`](./35-search-insert-position/search-insert-position.java) |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | 🔴 Hard | [`first-missing-positive.java`](./41-first-missing-positive/first-missing-positive.java) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | 🟠 Medium | [`jump-game-ii.java`](./45-jump-game-ii/jump-game-ii.java) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | 🟢 Easy | [`plus-one.java`](./66-plus-one/plus-one.java) |
@@ -67,7 +68,6 @@ Example:
 
 | # | Problem | Difficulty | Solution |
 |---|---|---|---|
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | 🟢 Easy | [`search-insert-position.java`](./35-search-insert-position/search-insert-position.java) |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟠 Medium | [`search-in-rotated-sorted-array-ii.java`](./81-search-in-rotated-sorted-array-ii/search-in-rotated-sorted-array-ii.java) |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | 🟢 Easy | [`first-bad-version.java`](./278-first-bad-version/first-bad-version.java) |
 
@@ -89,7 +89,7 @@ Example:
 | 1156 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram) | 🟢 Easy | [`occurrences-after-bigram.java`](./1156-occurrences-after-bigram/occurrences-after-bigram.java) |
 | 1524 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array) | 🟢 Easy | [`string-matching-in-an-array.java`](./1524-string-matching-in-an-array/string-matching-in-an-array.java) |
 | 1632 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string) | 🟠 Medium | [`number-of-good-ways-to-split-a-string.java`](./1632-number-of-good-ways-to-split-a-string/number-of-good-ways-to-split-a-string.java) |
-| 1781 | [Check if Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | [`check-if-two-string-arrays-are-equivalent.java`](./1781-check-if-two-string-arrays-are-equivalent/check-if-two-string-arrays-are-equivalent.java) |
+| 1781 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | [`check-if-two-string-arrays-are-equivalent.java`](./1781-check-if-two-string-arrays-are-equivalent/check-if-two-string-arrays-are-equivalent.java) |
 | 1823 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike) | 🟢 Easy | [`determine-if-string-halves-are-alike.java`](./1823-determine-if-string-halves-are-alike/determine-if-string-halves-are-alike.java) |
 | 1954 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters) | 🟢 Easy | [`replace-all-digits-with-characters.java`](./1954-replace-all-digits-with-characters/replace-all-digits-with-characters.java) |
 | 1960 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram) | 🟢 Easy | [`check-if-the-sentence-is-pangram.java`](./1960-check-if-the-sentence-is-pangram/check-if-the-sentence-is-pangram.java) |
@@ -103,12 +103,19 @@ Example:
 | 3379 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | [`score-of-a-string.java`](./3379-score-of-a-string/score-of-a-string.java) |
 | 3396 | [Valid Word](https://leetcode.com/problems/valid-word) | 🟢 Easy | [`valid-word.java`](./3396-valid-word/valid-word.java) |
 | 3468 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string) | 🟢 Easy | [`find-the-encrypted-string.java`](./3468-find-the-encrypted-string/find-the-encrypted-string.java) |
-| 3636 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string) | 🟢 Easy | [`check-balanced-string.java`](./3636-check-balanced-string/check-balanced-string.java) |
 | 4052 | [Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings) | 🟢 Easy | [`equal-score-substrings.java`](./4052-equal-score-substrings/equal-score-substrings.java) |
 | 4178 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score) | 🟢 Easy | [`vowel-consonant-score.java`](./4178-vowel-consonant-score/vowel-consonant-score.java) |
 | 4186 | [Count Residue Prefixes](https://leetcode.com/problems/count-residue-prefixes) | 🟢 Easy | [`count-residue-prefixes.java`](./4186-count-residue-prefixes/count-residue-prefixes.java) |
 | 4264 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends) | 🟢 Easy | [`first-matching-character-from-both-ends.java`](./4264-first-matching-character-from-both-ends/first-matching-character-from-both-ends.java) |
 | 4305 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences) | 🟢 Easy | [`check-adjacent-digit-differences.java`](./4305-check-adjacent-digit-differences/check-adjacent-digit-differences.java) |
+
+### Linked List
+
+| # | Problem | Difficulty | Solution |
+|---|---|---|---|
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 Easy | [`merge-two-sorted-lists.java`](./21-merge-two-sorted-lists/merge-two-sorted-lists.java) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 Easy | [`remove-duplicates-from-sorted-list.java`](./83-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.java) |
+| 908 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | [`middle-of-the-linked-list.java`](./908-middle-of-the-linked-list/middle-of-the-linked-list.java) |
 
 ### Matrix
 
@@ -119,6 +126,7 @@ Example:
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | 🟠 Medium | [`spiral-matrix-ii.java`](./59-spiral-matrix-ii/spiral-matrix-ii.java) |
 | 898 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | 🟢 Easy | [`transpose-matrix.java`](./898-transpose-matrix/transpose-matrix.java) |
 | 1677 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | [`matrix-diagonal-sum.java`](./1677-matrix-diagonal-sum/matrix-diagonal-sum.java) |
+| 3533 | [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix) | 🟢 Easy | [`snake-in-matrix.java`](./3533-snake-in-matrix/snake-in-matrix.java) |
 
 ### Math
 
@@ -130,6 +138,7 @@ Example:
 | 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | 🟠 Medium | [`bulb-switcher.java`](./319-bulb-switcher/bulb-switcher.java) |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 Easy | [`power-of-three.java`](./326-power-of-three/power-of-three.java) |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 Easy | [`fizz-buzz.java`](./412-fizz-buzz/fizz-buzz.java) |
+| 3636 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string) | 🟢 Easy | [`check-balanced-string.java`](./3636-check-balanced-string/check-balanced-string.java) |
 
 ### Two Pointers & Sliding Window
 
@@ -137,21 +146,12 @@ Example:
 |---|---|---|---|
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟠 Medium | [`container-with-most-water.java`](./11-container-with-most-water/container-with-most-water.java) |
 
-### Linked List
-
-| # | Problem | Difficulty | Solution |
-|---|---|---|---|
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 Easy | [`merge-two-sorted-lists.java`](./21-merge-two-sorted-lists/merge-two-sorted-lists.java) |
-| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 Easy | [`remove-duplicates-from-sorted-list.java`](./83-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.java) |
-| 908 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | [`middle-of-the-linked-list.java`](./908-middle-of-the-linked-list/middle-of-the-linked-list.java) |
-
 ### Simulation & Game Logic
 
 | # | Problem | Difficulty | Solution |
 |---|---|---|---|
 | 1951 | [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game) | 🟠 Medium | [`find-the-winner-of-the-circular-game.java`](./1951-find-the-winner-of-the-circular-game/find-the-winner-of-the-circular-game.java) |
 | 2791 | [Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game) | 🟢 Easy | [`find-the-losers-of-the-circular-game.java`](./2791-find-the-losers-of-the-circular-game/find-the-losers-of-the-circular-game.java) |
-| 3533 | [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix) | 🟢 Easy | [`snake-in-matrix.java`](./3533-snake-in-matrix/snake-in-matrix.java) |
 | 4275 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color) | 🟢 Easy | [`traffic-signal-color.java`](./4275-traffic-signal-color/traffic-signal-color.java) |
 | 4281 | [Score Validator](https://leetcode.com/problems/score-validator) | 🟢 Easy | [`score-validator.java`](./4281-score-validator/score-validator.java) |
 | 4384 | [Elevator Requests I](https://leetcode.com/problems/elevator-requests-i) | 🟢 Easy | [`elevator-requests-i.java`](./4384-elevator-requests-i/elevator-requests-i.java) |
